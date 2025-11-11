@@ -26,9 +26,9 @@ This project implements a **master-slave database system** in C for managing **u
 | File | Purpose |
 |------|---------|
 | `Entities.h` | Common structs for User, Review, Indexer |
-| `User.h` / `User.c` | Master file management, CRUD operations |
-| `Review.h` / `Review.c` | Slave file management, CRUD operations |
-| `Input.h` / `Input.c` | Functions to input Users and Reviews |
-| `Output.h` / `Output.c` | Functions to print Users and Reviews |
+| `User.h` | Master file management, CRUD operations |
+| `Review.h` | Slave file management, CRUD operations |
+| `Input.h` | Functions to input Users and Reviews |
+| `Output.h` | Functions to print Users and Reviews |
 | `Checks.h` | File and record validation functions |
 | `main.c` | Command-line interface to interact with the database |
